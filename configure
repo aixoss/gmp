@@ -20506,6 +20506,7 @@ lt_prog_compiler_static_CXX=
 	  lt_prog_compiler_static_CXX='-Bstatic'
 	else
 	  lt_prog_compiler_static_CXX='-bnso -bI:/lib/syscalls.exp'
+	   lt_prog_compiler_wl_CXX='-Wl,' # GCC seems to not be recognized
 	fi
 	;;
       chorus*)
